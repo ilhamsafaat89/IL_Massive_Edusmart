@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Edu Smart</string>
+    <string name="menu_1">Beranda</string>
+    <string name="menu_2">Materi</string>
+    <string name="menu_3">Scan</string>
+    <string name="menu_4">Chat</string>
+    <string name="login_1">Mulai</string>
+    <string name="login_2">Login</string>
+    <string name="login_3">E-mail :</string>
+    <string name="login_4">Masukkan Alamat email</string>
+    <string name="login_5">Sandi :</string>
+    <string name="login_6">Masukkan Kata Sandi</string>
+    <string name="login_7">Lupa Sandi?</string>
+    <string name="login_8">Hubungi Sekolah</string>
+    <string name="login_9">Masuk</string>
+    <string name="login_10">Belum punya akun?</string>
+    <string name="login_11">Reset</string>
+
+    <string name="home_1">Nilai</string>
+    <string name="home_2">Absensi</string>
+    <string name="home_3">Libur</string>
+    <string name="home_4">Izin</string>
+    <string name="home_5">Sakit</string>
+    <string name="home_6">Alfa</string>
+    <string name="home_7">V</string>
+
+
+    <string name="nilai_1">B. Indonesia</string>
+    <string name="nilai_2">Biologi</string>
+    <string name="nilai_3">Matematika</string>
+    <string name="nilai_4">Fisika</string>
+    <string name="nilai_5">Kimia</string>
+    <string name="nilai_6">B. Inggris</string>
+    <string name="nilai_7">Jasmani</string>
+    <string name="nilai_8">B. Perancis</string>
+    <string name="nilai_a">88</string>
+
+
+    <string name="chat_1">Terkirim</string>
+    <string name="chat_2">Biologi</string>
+    <string name="chat_3">Anne Anindhita, S.Pd</string>
+    <string name="chat_4">Nita Aryani, S.Pd</string>
+    <string name="chat_5">Titi Setiawati, S.Pd</string>
+    <string name="chat_6">Dadi, S.Pd</string>
+    <string name="chat_7">Elin Kusmayati, S.Pd</string>
+    <string name="chat_8">Yeni Nuryeni, S.Pd</string>
+    <string name="chat_9">Risma Puji, S.Pd</string>
+    <string name="chat_10">Cari</string>
+
+
+    <string name="scan_1">Nanda Aprillia Lestari</string>
+    <string name="scan_2">20210810159</string>
+    <string name="scan_3">Pastikan QR Code terlihat dengan jelas dan pastikan lensa kamera anda bersih sebelum melakukan scanning</string>
+    <string name="scan_4">Scan QR</string>
+
+
+    //description
+    <string name="desc_1">Branding Logo Edu Smart</string>
+    <string name="desc_2">Notifikasi</string>
+    <string name="desc_3">Foto Profil</string>
+    <string name="desc_4">Lampu orange</string>
+    <string name="desc_5">Siswa atau Mahasiswa membawa tas dan buku</string>
+    <string name="desc_6">Logo Edu Smart</string>
+    <string name="desc_7">Persegi Panjang berwarna orange</string>
+    <string name="desc_8">Persegi Panjang berwarna biru</string>
+    <string name="desc_9">Persegi Panjang berwarna putih</string>
+    <string name="desc_10">Kamera</string>
+    <string name="desc_11">Dokumen</string>
+    <string name="desc_12">Kirim</string>
+    <string name="desc_13">Pesan Suara</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">Hello blank fragment1</string>
+    <string name="hello_blank_fragment2">Hello blank fragment2</string>
+    <string name="hello_blank_fragment3">Hello blank fragment3</string>
+    <string name="hello_blank_fragment4">Hello blank fragment4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

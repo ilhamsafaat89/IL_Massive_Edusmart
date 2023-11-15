@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="80dp"
+    android:paddingBottom="80dp"
+    tools:context=".home.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/tv_profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/imagehomeprofile"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_text_welcome"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Selamat Datang,"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_profile"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_text_name"
+            style="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="NANDA APRILLIA LESTARI"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/tv_profile"
+            app:layout_constraintTop_toBottomOf="@+id/tv_text_welcome" />
+
+        <TextView
+            android:id="@+id/tv_text_nim"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="20210810159"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_profile"
+            app:layout_constraintTop_toBottomOf="@+id/tv_text_name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_activity"
+        android:layout_width="375dp"
+        android:layout_height="52dp"
+        android:layout_margin="20dp"
+        android:layout_marginVertical="30dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/orange"
+        android:padding="8dp"
+        android:paddingStart="20dp"
+        android:text="Ujian akan segera dimulai"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/btn_ujian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:text="---- Aktivitas Pembelajaran ----"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_activity"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/sv_homepage"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ujian"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_banner"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardBackgroundColor="@color/blue"
+                app:contentPadding="20dp"
+                app:layout_constraintTop_toBottomOf="@id/btn_ujian">
+
+                <TextView
+                    style="@style/TextAppearance.Material3.TitleLarge"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ada Materi Baru\nUntukmu"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_materibaru"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:src="@drawable/adamateribaru" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_banner2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:contentPaddingLeft="20dp"
+                app:contentPaddingRight="20dp"
+                app:cardBackgroundColor="@color/blue"
+                app:layout_constraintTop_toBottomOf="@id/cv_banner">
+
+                <ImageView
+                    android:id="@+id/iv_absensi"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical|left"
+                    android:layout_height="138dp"
+                    android:src="@drawable/cekriwayatabsensi" />
+
+                <TextView
+                    style="@style/TextAppearance.Material3.TitleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:text="Cek Riwayat \nAbsensimu"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_banner3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="@color/blue"
+                app:contentPaddingLeft="28dp"
+                app:contentPaddingRight="28dp"
+                app:cardElevation="6dp"
+                app:layout_constraintTop_toBottomOf="@id/cv_banner2">
+
+                <TextView
+                    style="@style/TextAppearance.Material3.TitleLarge"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Daftar \nNilaimu"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_materibaru3"
+                    android:layout_width="150dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_height="150dp"
+                    android:src="@drawable/daftarnilaikamu" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

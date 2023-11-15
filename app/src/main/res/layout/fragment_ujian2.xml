@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="80dp"
+    android:paddingBottom="80dp"
+    tools:context=".Fragment_ujian2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sv_ujian"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_ujian"
+        android:paddingBottom="50dp">
+
+    <TextView
+        android:id="@+id/tv_activity"
+        android:layout_width="match_parent"
+        android:layout_height="467dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_textview"
+        android:padding="20dp"
+        android:text="Perhatian !! \n - Bacalah soal dengan benar \n - Kerjakan lebih dulu soal yang mudah \n - Selamat Mengerjakan
+\n \n\n SOAL PILIHAN GANDA \n\n 1.Dalam sebuah mobil, ketika mobil bergerak ke depan, maka orang didalam mobil akan cenderung... \n A. \n B. \n C. \n D. \n
+\n 2. Satuan gaya dalam SI adalah... \n A. \n B. \n C. \n D. \n \n 3. Besarnya masa suatu benda adalah 2 kg, maka berapa berat benda tersebut jika diletakkan di permukaan bumi, yaitu..
+\n A. \n B. \n C. \n D. \n\n 4.Dalam sebuah mobil, ketika mobil bergerak ke depan, maka orang didalam mobil akan cenderung... \n A. \n B. \n C. \n D. \n
+\n 5. Satuan gaya dalam SI adalah... \n A. \n B. \n C. \n D. \n \n 6. Besarnya masa suatu benda adalah 2 kg, maka berapa berat benda tersebut jika diletakkan di permukaan bumi, yaitu..
+\n A. \n B. \n C. \n D."
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/cl_header" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_ujian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="90dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_1"
+        android:text="SELESAI"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent" />
+    "
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

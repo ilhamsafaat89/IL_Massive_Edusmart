@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="60dp"
+    android:paddingBottom="80dp"
+    tools:context=".home.HomeB1Fragment">
+
+    <Button
+        android:id="@+id/button_homeb"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_1"
+        android:text="@string/home_2"
+        android:textAllCaps="false"
+        android:fontFamily="@font/inter"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_homeb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/home_5"
+        app:layout_constraintTop_toBottomOf="@id/button_homeb"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_homeb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/home_3"
+        app:layout_constraintStart_toEndOf="@+id/img_homeb1"
+        app:layout_constraintTop_toBottomOf="@+id/button_homeb" />
+
+    <ImageView
+        android:id="@+id/img_homeb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/home_6"
+        app:layout_constraintTop_toBottomOf="@id/button_homeb"
+        app:layout_constraintStart_toEndOf="@id/text_homeb1" />
+
+    <TextView
+        android:id="@+id/text_homeb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/home_4"
+        app:layout_constraintStart_toEndOf="@+id/img_homeb2"
+        app:layout_constraintTop_toBottomOf="@+id/button_homeb" />
+
+    <ImageView
+        android:id="@+id/img_homeb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/home_7"
+        app:layout_constraintTop_toBottomOf="@id/button_homeb"
+        app:layout_constraintStart_toEndOf="@id/text_homeb2" />
+
+    <TextView
+        android:id="@+id/text_homeb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/home_5"
+        app:layout_constraintStart_toEndOf="@+id/img_homeb3"
+        app:layout_constraintTop_toBottomOf="@+id/button_homeb" />
+
+    <ImageView
+        android:id="@+id/img_homeb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/home_8"
+        app:layout_constraintTop_toBottomOf="@id/button_homeb"
+        app:layout_constraintStart_toEndOf="@id/text_homeb3" />
+
+    <TextView
+        android:id="@+id/text_homeb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/home_6"
+        app:layout_constraintStart_toEndOf="@+id/img_homeb4"
+        app:layout_constraintTop_toBottomOf="@+id/button_homeb" />
+
+    <LinearLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/text_homeb4">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAbsenList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="130dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/dropdownLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
