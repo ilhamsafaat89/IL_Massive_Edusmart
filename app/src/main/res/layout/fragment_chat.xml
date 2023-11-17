@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:paddingTop="60dp"
     android:paddingBottom="80dp"
-    tools:context=".chat.ChatFragment">
+    tools:context=".chat.fragment.ChatFragment">
 
 
     <androidx.appcompat.widget.SearchView

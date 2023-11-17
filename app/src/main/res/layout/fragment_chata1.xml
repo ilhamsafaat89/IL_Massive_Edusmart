@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:paddingTop="60dp"
     android:paddingBottom="80dp"
-    tools:context=".chat.ChatA1Fragment">
+    tools:context=".chat.fragment.ChatA1Fragment">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView1"

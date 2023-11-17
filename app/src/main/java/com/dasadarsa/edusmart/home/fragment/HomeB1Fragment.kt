@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.dasadarsa.edusmart.R
 import com.dasadarsa.edusmart.home.adapter.RecyclerViewHomeB1Adapter
+import com.dasadarsa.edusmart.home.data.HomeB1
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

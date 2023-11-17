@@ -7,7 +7,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingTop="80dp"
     android:paddingBottom="80dp"
-    tools:context=".Fragment_ujian2">
+    tools:context="ujian.Fragment_ujian2">
 
 
     <ScrollView

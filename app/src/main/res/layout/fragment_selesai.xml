@@ -7,7 +7,7 @@
     android:paddingTop="80dp"
     android:paddingBottom="80dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragment_selesai">
+    tools:context="ujian.Fragment_selesai">
 
 
     <ImageView

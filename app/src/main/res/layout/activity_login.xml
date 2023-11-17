@@ -7,48 +7,36 @@
     android:id="@+id/constraintLayout"
     tools:context=".LoginActivity">
 
-    <ImageView
-        android:id="@+id/img_login1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/login_1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="@string/desc_4"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_edusmart"
+        />
 
     <ImageView
         android:id="@+id/img_login2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="128dp"
+        android:layout_height="125dp"
         android:layout_marginTop="80dp"
-        android:src="@drawable/login_3"
+        android:contentDescription="@string/desc_6"
+        android:elevation="1dp"
+        android:src="@drawable/logo_edusmart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:elevation="1dp"
-        android:contentDescription="@string/desc_6"/>
-
-    <ImageView
-        android:id="@+id/img_login3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/login_4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/desc_4"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/text_login1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="@string/login_2"
-        android:textSize="30sp"
+        android:layout_marginTop="24dp"
         android:fontFamily="@font/josefinslab"
+        android:text="@string/login_2"
         android:textColor="@color/black"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_login2" />
 
@@ -130,7 +118,7 @@
         app:layout_constraintStart_toEndOf="@+id/text_login4"
         app:layout_constraintTop_toBottomOf="@+id/etext_login2" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -138,6 +126,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginTop="70dp"
         android:background="@drawable/button_1"
+        android:backgroundTint="#0B5DEC"
         android:text="@string/login_9"
         android:fontFamily="@font/inter"
         android:textColor="@color/white"
@@ -151,9 +140,10 @@
         android:id="@+id/text_login6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:text="@string/login_10"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/inter"
+        android:text="@string/login_10"
         android:textSize="13sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_login" />
@@ -162,17 +152,15 @@
         android:id="@+id/text_login7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:text="@string/login_8"
-        android:textSize="13sp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/inter"
-        android:textStyle="bold"
+        android:text="@string/login_8"
         android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/text_login6"
         app:layout_constraintTop_toBottomOf="@+id/button_login" />
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

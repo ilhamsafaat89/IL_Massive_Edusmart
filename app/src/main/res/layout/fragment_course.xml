@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentJadwalPelajaran"
+    tools:context="course.CourseFragment"
     android:paddingTop="60dp"
     android:paddingBottom="80dp"
     android:id="@+id/FragmentMenuMateri">
@@ -22,7 +22,7 @@
         android:layout_marginStart="20dp"
         android:fontFamily="@font/justanotherhand"
         android:text="Materi"
-        android:textColor="@color/orange_wortel_edusmart"
+        android:textColor="@color/black"
         android:textSize="64sp"/>
 
 
@@ -48,7 +48,7 @@
                 app:contentPadding="15dp"
                 android:layout_height="180dp"
                 android:layout_marginBottom="15dp"
-                app:cardBackgroundColor="@color/orange_wortel_edusmart"
+                app:cardBackgroundColor="@color/blue_rebranding"
                 app:cardCornerRadius="20dp">
 
                 <TextView
@@ -104,7 +104,7 @@
                 app:contentPadding="15dp"
                 android:layout_height="180dp"
                 android:layout_marginBottom="15dp"
-                app:cardBackgroundColor="@color/orange_wortel_edusmart"
+                app:cardBackgroundColor="@color/blue"
                 app:cardCornerRadius="20dp">
 
                 <TextView
@@ -158,7 +158,7 @@
                 app:contentPadding="15dp"
                 android:layout_height="180dp"
                 android:layout_marginBottom="15dp"
-                app:cardBackgroundColor="@color/orange_wortel_edusmart"
+                app:cardBackgroundColor="@color/blue_rebranding"
                 app:cardCornerRadius="20dp">
 
                 <TextView
@@ -219,7 +219,7 @@
                 app:contentPadding="15dp"
                 android:layout_height="180dp"
                 android:layout_marginBottom="15dp"
-                app:cardBackgroundColor="@color/orange_wortel_edusmart"
+                app:cardBackgroundColor="@color/blue"
                 app:cardCornerRadius="20dp">
 
                 <TextView

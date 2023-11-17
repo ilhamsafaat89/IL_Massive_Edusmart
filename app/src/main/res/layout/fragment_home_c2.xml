@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:paddingTop="60dp"
     android:paddingBottom="80dp"
-    tools:context=".home.HomeC2Fragment">
+    tools:context=".home.fragment.HomeC2Fragment">
 
     <!-- TODO: Update blank fragment layout -->
 

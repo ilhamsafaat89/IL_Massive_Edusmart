@@ -7,37 +7,37 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.dasadarsa.edusmart.home.HomeFragment"
+        android:name="com.dasadarsa.edusmart.home.fragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/courseFragment"
-        android:name="com.dasadarsa.edusmart.CourseFragment"
+        android:name="com.dasadarsa.edusmart.course.CourseFragment"
         android:label="fragment_course"
         tools:layout="@layout/fragment_course" />
     <fragment
         android:id="@+id/scanFragment"
-        android:name="com.dasadarsa.edusmart.ScanFragment"
+        android:name="com.dasadarsa.edusmart.scan.ScanFragment"
         android:label="fragment_scan"
         tools:layout="@layout/fragment_scan" />
     <fragment
         android:id="@+id/chatFragment"
-        android:name="com.dasadarsa.edusmart.chat.ChatFragment"
+        android:name="com.dasadarsa.edusmart.chat.fragment.ChatFragment"
         android:label="fragment_chat"
         tools:layout="@layout/fragment_chat" />
     <fragment
         android:id="@+id/fragment_selesai"
-        android:name="com.dasadarsa.edusmart.Fragment_selesai"
+        android:name="com.dasadarsa.edusmart.ujian.Fragment_selesai"
         android:label="fragment_selesai"
         tools:layout="@layout/fragment_selesai" />
     <fragment
         android:id="@+id/fragment_ujian1"
-        android:name="com.dasadarsa.edusmart.Fragment_ujian1"
+        android:name="com.dasadarsa.edusmart.ujian.Fragment_ujian1"
         android:label="fragment_ujian1"
         tools:layout="@layout/fragment_ujian1" />
     <fragment
         android:id="@+id/fragment_ujian2"
-        android:name="com.dasadarsa.edusmart.Fragment_ujian2"
+        android:name="com.dasadarsa.edusmart.ujian.Fragment_ujian2"
         android:label="fragment_ujian2"
         tools:layout="@layout/fragment_ujian2" />
 </navigation>

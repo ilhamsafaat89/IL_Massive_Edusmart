@@ -9,9 +9,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.FragmentTransaction
-import com.dasadarsa.edusmart.CourseFragment
-import com.dasadarsa.edusmart.Fragment_ujian1
-import com.dasadarsa.edusmart.ProfileFragment
+import com.dasadarsa.edusmart.course.CourseFragment
+import com.dasadarsa.edusmart.ujian.Fragment_ujian1
+import com.dasadarsa.edusmart.profile.ProfileFragment
 import com.dasadarsa.edusmart.R
 
 // TODO: Rename parameter arguments, choose names that match

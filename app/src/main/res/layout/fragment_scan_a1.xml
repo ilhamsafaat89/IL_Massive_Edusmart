@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:paddingTop="60dp"
     android:paddingBottom="80dp"
-    tools:context=".ScanA1Fragment">
+    tools:context="scan.ScanA1Fragment">
 
     <SurfaceView
         android:id="@+id/cameraSurfaceView"
