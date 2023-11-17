@@ -8,7 +8,7 @@
     <style name="Theme.EduSmart" parent="Base.Theme.EduSmart" />
     <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/cardview_light_background</item>
-        <item name="android:windowSplashScreenBrandingImage" tools:targetApi="s">@drawable/ic_splash</item>
+        <item name="android:windowSplashScreenBrandingImage" tools:targetApi="s">@color/white</item>
         <item name="postSplashScreenTheme">@style/Base.Theme.EduSmart</item>
 
     </style>

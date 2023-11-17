@@ -9,17 +9,19 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
 class StartActivity : AppCompatActivity() {
 
-    val SPLASH_DELAY: Long = 2000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         installSplashScreen()
         setContentView(R.layout.activity_start)
-        Handler().postDelayed({
-            Intent(this, LoginActivity::class.java).also {
-                startActivity(it)
-                finish() // Optional: Jika Anda ingin menutup LoginActivity setelah pindah ke MainActivity
-            }
-        }, SPLASH_DELAY)
+
+        val btnLoginSiswa: Button = findViewById(R.id.btnLoginSiswa)
+        val btnLoginOrtu: Button = findViewById(R.id.btnLoginOrtu)
+
+        btnLoginSiswa.setOnClickListener{
+           val intent = Intent(this@StartActivity, LoginActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
         }
     }
