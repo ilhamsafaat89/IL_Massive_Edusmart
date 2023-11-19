@@ -9,8 +9,9 @@
     <color name="blue">#0F3392</color>
     <color name="blue_500">#091B5B</color>
     <color name="blue_rebranding">#0A5EED</color>
-
+    <color name="blue_rebranding2">#1E45BA</color>
     <color name="ungu_pastel_edusmart">#D1D0E2</color>
     <color name="orange_wortel_edusmart">#FF5C00</color>
+    <color name="orange_subjudul_edusmart">#F8BD4C</color>
     <color name="blue_laut_edusmart">#0F3392</color>
 </resources>

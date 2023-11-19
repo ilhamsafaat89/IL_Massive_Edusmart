@@ -14,8 +14,8 @@
         android:id="@+id/constraintLayout"
         android:layout_width="420dp"
         android:layout_height="200dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/orange"
+        android:layout_marginTop="80dp"
+        android:background="@color/blue_rebranding"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -76,7 +76,7 @@
         android:layout_margin="20dp"
         android:padding="8dp"
         android:paddingStart="20dp"
-        android:text="Pastikan QR code terlihat dengan jelas dan pastikan lensa kamera anda bersih sebelum melakukan scanning"
+        android:text="Silahkan masukan kode ujian yang didapat dari guru bersangkutan"
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="18sp"
@@ -84,16 +84,31 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
+        android:id="@+id/btn_kodeujian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button_2"
+        android:text="(hanya angka)"
+        android:fontFamily="@font/opensans"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_activity"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <Button
         android:id="@+id/btn_ujian"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
         android:text="Ikuti Ujian"
-        android:background="@drawable/button_3"
+        android:background="@drawable/button_1"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@+id/tv_activity"
+        app:layout_constraintTop_toBottomOf="@+id/btn_kodeujian"
+
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -57,18 +57,17 @@
             app:layout_constraintTop_toBottomOf="@+id/tv_ChatTitle"
             app:layout_constraintVertical_bias="0.506" />
 
-        <TextView
+        <ImageView
             android:id="@+id/tv_ChatTitle2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:text="@string/chat_2"
-            android:textSize="10sp"
-            android:fontFamily="@font/inter"
-            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginStart="316dp"
+            android:src="@drawable/wa"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.571" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

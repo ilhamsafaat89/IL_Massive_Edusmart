@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="75dp"
         android:layout_marginStart="20dp"
-        android:fontFamily="@font/justanotherhand"
+        android:fontFamily="@font/opensans"
+        android:textStyle="bold"
         android:text="Materi"
         android:textColor="@color/black"
         android:textSize="64sp"/>
@@ -68,7 +69,7 @@
                     android:fontFamily="@font/inter"
                     android:text="Fisika"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding" />
 
                 <Button
                     android:id="@+id/senininggris"
@@ -81,7 +82,7 @@
                     android:fontFamily="@font/inter"
                     android:text="B.Inggris"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding" />
 
                 <Button
                     android:layout_width="140dp"
@@ -92,7 +93,7 @@
                     android:fontFamily="@font/inter"
                     android:text="Kimia"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding" />
             </androidx.cardview.widget.CardView>
 
             <!--Hari selasa-->
@@ -101,7 +102,7 @@
                 android:layout_height="180dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="15dp"
-                app:cardBackgroundColor="@color/blue"
+                app:cardBackgroundColor="@color/blue_rebranding2"
                 app:cardCornerRadius="20dp"
                 app:contentPadding="15dp">
 
@@ -123,7 +124,7 @@
                     android:fontFamily="@font/inter"
                     android:text="Matematika"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding2" />
 
                 <Button
                     android:layout_width="140dp"
@@ -135,7 +136,7 @@
                     android:fontFamily="@font/inter"
                     android:text="Fisika"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding2" />
 
                 <Button
                     android:layout_width="140dp"
@@ -146,7 +147,7 @@
                     android:fontFamily="@font/inter"
                     android:text="Biologi"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding2" />
             </androidx.cardview.widget.CardView>
 
             <!--Hari Rabu-->
@@ -177,7 +178,7 @@
                     android:fontFamily="@font/inter"
                     android:text="B.inggris"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding" />
 
                 <Button
                     android:layout_width="140dp"
@@ -189,7 +190,7 @@
                     android:fontFamily="@font/inter"
                     android:text="Matematika"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding" />
 
                 <Button
                     android:layout_width="140dp"
@@ -200,18 +201,19 @@
                     android:fontFamily="@font/inter"
                     android:text="Kimia"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding" />
 
                 <Button
                     android:layout_width="140dp"
                     android:layout_height="30dp"
                     android:layout_gravity="right"
                     android:layout_marginTop="80dp"
+                    android:background="@drawable/button_6"
                     android:backgroundTint="@color/white"
                     android:fontFamily="@font/inter"
                     android:text="B.indonesia"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding" />
             </androidx.cardview.widget.CardView>
 
             <!--Hari kamis-->
@@ -220,7 +222,7 @@
                 android:layout_height="180dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="15dp"
-                app:cardBackgroundColor="@color/blue"
+                app:cardBackgroundColor="@color/blue_rebranding2"
                 app:cardCornerRadius="20dp"
                 app:contentPadding="15dp">
 
@@ -242,7 +244,7 @@
                     android:fontFamily="@font/inter"
                     android:text="Biologi"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding2" />
 
                 <Button
                     android:layout_width="140dp"
@@ -254,7 +256,7 @@
                     android:fontFamily="@font/inter"
                     android:text="Fisika"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding2" />
 
                 <Button
                     android:layout_width="140dp"
@@ -265,8 +267,9 @@
                     android:fontFamily="@font/inter"
                     android:text="Kimia"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding2" />
             </androidx.cardview.widget.CardView>
+
 
             <!--Hari Jumat-->
             <androidx.cardview.widget.CardView
@@ -274,7 +277,7 @@
                 android:layout_height="180dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="15dp"
-                app:cardBackgroundColor="@color/orange_wortel_edusmart"
+                app:cardBackgroundColor="@color/blue_rebranding"
                 app:cardCornerRadius="20dp"
                 app:contentPadding="15dp">
 
@@ -296,7 +299,7 @@
                     android:fontFamily="@font/inter"
                     android:text="B.Indonesia"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding" />
 
                 <Button
                     android:layout_width="140dp"
@@ -308,7 +311,7 @@
                     android:fontFamily="@font/inter"
                     android:text="B.Inggris"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding" />
 
                 <Button
                     android:layout_width="140dp"
@@ -319,7 +322,7 @@
                     android:fontFamily="@font/inter"
                     android:text="Kimia"
                     android:textAllCaps="false"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/blue_rebranding" />
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>

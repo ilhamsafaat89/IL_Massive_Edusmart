@@ -11,9 +11,6 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-
-
-
     <ImageButton
         android:id="@+id/btn_back"
         android:layout_width="wrap_content"
@@ -32,9 +29,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
-        android:fontFamily="@font/justanotherhand"
+        android:fontFamily="@font/opensans"
+        android:textStyle="bold"
         android:text="Fisika"
-        android:textColor="@color/orange_wortel_edusmart"
+        android:textColor="@color/black"
         android:textSize="64sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.081"
@@ -66,7 +64,7 @@
                     android:id="@+id/cardView5"
                     android:layout_width="110dp"
                     android:layout_height="76dp"
-                    android:backgroundTint="@color/blue_laut_edusmart"
+                    android:backgroundTint="@color/blue_rebranding"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -77,10 +75,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
-                            android:text="Bab 1"
+                            android:fontFamily="@font/opensans"
+                            android:text="Bab I"
                             android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textSize="25sp" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -91,7 +89,7 @@
                     android:layout_width="235dp"
                     android:layout_height="76dp"
                     android:layout_marginStart="10dp"
-                    android:backgroundTint="@color/orange_wortel_edusmart"
+                    android:backgroundTint="@color/white"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -103,10 +101,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
+                            android:fontFamily="@font/opensans"
                             android:text="Hukum Newton"
-                            android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
 
                     </LinearLayout>
 
@@ -125,7 +123,7 @@
                     android:id="@+id/cardView7"
                     android:layout_width="110dp"
                     android:layout_height="76dp"
-                    android:backgroundTint="@color/blue_laut_edusmart"
+                    android:backgroundTint="@color/blue_rebranding"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -136,10 +134,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
-                            android:text="Bab 2"
+                            android:fontFamily="@font/opensans"
+                            android:text="Bab II"
                             android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textSize="25sp" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -149,7 +147,7 @@
                     android:layout_width="235dp"
                     android:layout_height="76dp"
                     android:layout_marginStart="10dp"
-                    android:backgroundTint="@color/orange_wortel_edusmart"
+                    android:backgroundTint="@color/white"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -161,10 +159,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
+                            android:fontFamily="@font/opensans"
                             android:text="Tekanan"
-                            android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
 
                     </LinearLayout>
 
@@ -184,7 +182,7 @@
                     android:id="@+id/cardView9"
                     android:layout_width="110dp"
                     android:layout_height="76dp"
-                    android:backgroundTint="@color/blue_laut_edusmart"
+                    android:backgroundTint="@color/blue_rebranding"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -195,10 +193,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
-                            android:text="Bab 3"
+                            android:fontFamily="@font/opensans"
+                            android:text="Bab III"
                             android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textSize="25sp" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -208,7 +206,7 @@
                     android:layout_width="235dp"
                     android:layout_height="76dp"
                     android:layout_marginStart="10dp"
-                    android:backgroundTint="@color/orange_wortel_edusmart"
+                    android:backgroundTint="@color/white"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -220,10 +218,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
+                            android:fontFamily="@font/opensans"
                             android:text="Gravitasi"
-                            android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
 
                     </LinearLayout>
 
@@ -241,7 +239,7 @@
                     android:id="@+id/cardView10"
                     android:layout_width="110dp"
                     android:layout_height="76dp"
-                    android:backgroundTint="@color/blue_laut_edusmart"
+                    android:backgroundTint="@color/blue_rebranding"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -252,10 +250,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
-                            android:text="Bab 4"
+                            android:fontFamily="@font/opensans"
+                            android:text="Bab IV"
                             android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textSize="25sp" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -265,7 +263,7 @@
                     android:layout_width="235dp"
                     android:layout_height="76dp"
                     android:layout_marginStart="10dp"
-                    android:backgroundTint="@color/orange_wortel_edusmart"
+                    android:backgroundTint="@color/white"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -277,10 +275,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
+                            android:fontFamily="@font/opensans"
                             android:text="Katrol"
-                            android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
 
                     </LinearLayout>
 
@@ -298,7 +296,7 @@
                     android:id="@+id/cardView11"
                     android:layout_width="110dp"
                     android:layout_height="76dp"
-                    android:backgroundTint="@color/blue_laut_edusmart"
+                    android:backgroundTint="@color/blue_rebranding"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -309,10 +307,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
-                            android:text="Bab 5"
+                            android:fontFamily="@font/opensans"
+                            android:text="Bab V"
                             android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textSize="25sp" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -322,7 +320,7 @@
                     android:layout_width="235dp"
                     android:layout_height="76dp"
                     android:layout_marginStart="10dp"
-                    android:backgroundTint="@color/orange_wortel_edusmart"
+                    android:backgroundTint="@color/white"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -334,10 +332,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
+                            android:fontFamily="@font/opensans"
                             android:text="Gaya"
-                            android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
 
                     </LinearLayout>
 
@@ -355,7 +353,7 @@
                     android:id="@+id/cardView12"
                     android:layout_width="110dp"
                     android:layout_height="76dp"
-                    android:backgroundTint="@color/blue_laut_edusmart"
+                    android:backgroundTint="@color/blue_rebranding"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -366,10 +364,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
-                            android:text="Bab 6"
+                            android:fontFamily="@font/opensans"
+                            android:text="Bab VI"
                             android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textSize="25sp" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -379,7 +377,7 @@
                     android:layout_width="235dp"
                     android:layout_height="76dp"
                     android:layout_marginStart="10dp"
-                    android:backgroundTint="@color/orange_wortel_edusmart"
+                    android:backgroundTint="@color/white"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -391,10 +389,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
+                            android:fontFamily="@font/opensans"
                             android:text="Suhu"
-                            android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
 
                     </LinearLayout>
 
@@ -412,7 +410,7 @@
                     android:id="@+id/cardView13"
                     android:layout_width="110dp"
                     android:layout_height="76dp"
-                    android:backgroundTint="@color/blue_laut_edusmart"
+                    android:backgroundTint="@color/blue_rebranding"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -423,10 +421,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
-                            android:text="Bab 7"
+                            android:fontFamily="@font/opensans"
+                            android:text="Bab VII"
                             android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textSize="25sp" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -436,7 +434,7 @@
                     android:layout_width="235dp"
                     android:layout_height="76dp"
                     android:layout_marginStart="10dp"
-                    android:backgroundTint="@color/orange_wortel_edusmart"
+                    android:backgroundTint="@color/white"
                     app:cardCornerRadius="10dp">
 
                     <LinearLayout
@@ -448,10 +446,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/justanotherhand"
+                            android:fontFamily="@font/opensans"
                             android:text="Perubahan zat"
-                            android:textColor="@color/white"
-                            android:textSize="36sp" />
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
 
                     </LinearLayout>
 

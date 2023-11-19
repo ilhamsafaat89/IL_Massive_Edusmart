@@ -25,7 +25,6 @@
             android:id="@+id/view_home1"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="@color/blue"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -38,8 +37,9 @@
             android:paddingEnd="20dp"
             android:text="@string/home_1"
             android:textSize="30sp"
-            android:fontFamily="@font/inter"
-            android:textColor="@color/white"
+            android:fontFamily="@font/opensans"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

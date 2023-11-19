@@ -11,7 +11,9 @@
         android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background_edusmart" />
+        android:background="@drawable/background_edusmart"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="-54dp" />
 
     <ImageView
         android:id="@+id/img_start3"

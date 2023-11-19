@@ -26,9 +26,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Congratulations"
+        android:text="Terima kasih !"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/blue_rebranding"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/tv_cheklist"
         tools:layout_editor_absoluteX="0dp" />
@@ -76,7 +76,7 @@
             android:layout_marginTop="25dp"
             android:text="NANDA APRILLIA LESTARI"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/blue_rebranding"
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/tv_profile"
             tools:ignore="NotSibling" />
@@ -88,7 +88,7 @@
             android:layout_marginTop="4dp"
             android:text="20210810159"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/blue_rebranding"
             android:textSize="15sp"
             app:layout_constraintTop_toBottomOf="@+id/tv_text_name" />
 
