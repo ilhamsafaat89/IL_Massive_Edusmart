@@ -13,7 +13,7 @@
         android:id="@+id/button_homeb"
         android:layout_width="350dp"
         android:layout_height="40dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:layout_marginBottom="30dp"
         android:background="@drawable/button_1"
         android:text="@string/home_2"
@@ -25,77 +25,86 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/img_homeb1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:src="@drawable/home_5"
-        app:layout_constraintTop_toBottomOf="@id/button_homeb"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
+        android:paddingTop="10dp"
         android:id="@+id/text_homeb1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="8dp"
         android:text="@string/home_3"
         app:layout_constraintStart_toEndOf="@+id/img_homeb1"
         app:layout_constraintTop_toBottomOf="@+id/button_homeb" />
 
     <ImageView
-        android:id="@+id/img_homeb2"
+        android:paddingTop="10dp"
+        android:id="@+id/img_homeb1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:src="@drawable/home_6"
-        app:layout_constraintTop_toBottomOf="@id/button_homeb"
-        app:layout_constraintStart_toEndOf="@id/text_homeb1" />
+        android:layout_marginStart="44dp"
+        android:src="@drawable/home_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_homeb" />
 
     <TextView
+        android:paddingTop="10dp"
         android:id="@+id/text_homeb2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="12dp"
         android:text="@string/home_4"
         app:layout_constraintStart_toEndOf="@+id/img_homeb2"
         app:layout_constraintTop_toBottomOf="@+id/button_homeb" />
 
     <ImageView
+        android:paddingTop="10dp"
+        android:id="@+id/img_homeb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/home_6"
+        app:layout_constraintStart_toEndOf="@id/text_homeb1"
+        app:layout_constraintTop_toBottomOf="@id/button_homeb" />
+
+    <ImageView
+        android:paddingTop="10dp"
         android:id="@+id/img_homeb3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="36dp"
         android:src="@drawable/home_7"
-        app:layout_constraintTop_toBottomOf="@id/button_homeb"
-        app:layout_constraintStart_toEndOf="@id/text_homeb2" />
+        app:layout_constraintStart_toEndOf="@id/text_homeb2"
+        app:layout_constraintTop_toBottomOf="@id/button_homeb" />
 
     <TextView
+        android:paddingTop="10dp"
         android:id="@+id/text_homeb3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="8dp"
         android:text="@string/home_5"
         app:layout_constraintStart_toEndOf="@+id/img_homeb3"
         app:layout_constraintTop_toBottomOf="@+id/button_homeb" />
 
-    <ImageView
-        android:id="@+id/img_homeb4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:src="@drawable/home_8"
-        app:layout_constraintTop_toBottomOf="@id/button_homeb"
-        app:layout_constraintStart_toEndOf="@id/text_homeb3" />
-
     <TextView
+        android:paddingTop="10dp"
         android:id="@+id/text_homeb4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="4dp"
         android:text="@string/home_6"
         app:layout_constraintStart_toEndOf="@+id/img_homeb4"
         app:layout_constraintTop_toBottomOf="@+id/button_homeb" />
+
+    <ImageView
+        android:paddingTop="10dp"
+        android:id="@+id/img_homeb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/home_8"
+        app:layout_constraintStart_toEndOf="@id/text_homeb3"
+        app:layout_constraintTop_toBottomOf="@id/button_homeb" />
 
     <LinearLayout
         android:id="@+id/constraintLayout2"
@@ -118,9 +127,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone">
-
-
-
         </RelativeLayout>
 
     </LinearLayout>

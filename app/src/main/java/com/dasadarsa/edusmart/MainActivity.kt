@@ -1,9 +1,10 @@
 package com.dasadarsa.edusmart
 
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
-import android.widget.Toolbar
+
 import androidx.fragment.app.Fragment
 import com.dasadarsa.edusmart.chat.fragment.ChatFragment
 import com.dasadarsa.edusmart.course.CourseFragment
@@ -25,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.logo_actionbar)
+
 
         binding.bottomNav.setOnItemSelectedListener {
 

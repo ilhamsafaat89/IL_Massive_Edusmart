@@ -29,24 +29,24 @@
             android:id="@+id/tv_AbsenTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/nilai_1"
-            android:textSize="20sp"
+            android:elevation="2dp"
             android:fontFamily="@font/inter"
-            android:textColor="@color/white"
+            android:text="@string/nilai_1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/ivAbsenImg"
             app:layout_constraintEnd_toEndOf="@+id/ivAbsenImg"
+            app:layout_constraintHorizontal_bias="0.137"
             app:layout_constraintStart_toStartOf="@+id/ivAbsenImg"
-            app:layout_constraintTop_toTopOf="@+id/ivAbsenImg" />
+            app:layout_constraintTop_toTopOf="@+id/ivAbsenImg"
+            app:layout_constraintVertical_bias="0.523" />
 
-        <TextView
+        <ImageView
             android:id="@+id/tv_ScoreTitle1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
-            android:text="@string/home_7"
-            android:textSize="20sp"
-            android:fontFamily="@font/inter"
-            android:textColor="@color/white"
+            android:src="@drawable/slide_up"
             app:layout_constraintBottom_toBottomOf="@+id/ivAbsenImg"
             app:layout_constraintEnd_toEndOf="@+id/ivAbsenImg"
             app:layout_constraintTop_toTopOf="@+id/ivAbsenImg" />
