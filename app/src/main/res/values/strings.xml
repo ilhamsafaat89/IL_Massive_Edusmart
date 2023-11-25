@@ -69,6 +69,15 @@
     <string name="desc_12">Kirim</string>
     <string name="desc_13">Pesan Suara</string>
 
+    <string name="r_tugas1">Biologi</string>
+    <string name="r_tugas2">Bab 1</string>
+    <string name="r_tugas3">Bab 2</string>
+    <string name="r_tugas4">Bab 3</string>
+    <string name="r_tugas5">Bab 4</string>
+    <string name="isi1">Tugas 1</string>
+    <string name="isi2">Tugas 2</string>
+    <string name="isi3">Tugas 3</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment1">Hello blank fragment1</string>
     <string name="hello_blank_fragment2">Hello blank fragment2</string>
