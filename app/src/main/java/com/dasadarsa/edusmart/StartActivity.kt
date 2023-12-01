@@ -3,9 +3,9 @@ package com.dasadarsa.edusmart
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import android.widget.Button
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.dasadarsa.edusmart.ortu.LoginWaliActivity
 
 class StartActivity : AppCompatActivity() {
 
@@ -20,6 +20,11 @@ class StartActivity : AppCompatActivity() {
 
         btnLoginSiswa.setOnClickListener{
            val intent = Intent(this@StartActivity, LoginActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        btnLoginOrtu.setOnClickListener{
+            val intent = Intent(this, LoginWaliActivity::class.java)
             startActivity(intent)
             finish()
         }

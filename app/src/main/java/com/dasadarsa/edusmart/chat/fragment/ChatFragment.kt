@@ -1,5 +1,6 @@
 package com.dasadarsa.edusmart.chat.fragment
 
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -92,17 +93,30 @@ class ChatFragment : Fragment(), ChatInterface {
     }
 
     override fun openWhatsApp() {
+//        val phoneNumber = "+6285524620783"
+//        val message = "Halo, Selamat Pagi/Siang Bapak/Ibu Mohon maaf apabila mengganggu waktunya Izin Bertanya perihal ...."
+//
+//        val encodedMessage = URLEncoder.encode(message, "UTF-8")
+//
+//        val uri = Uri.parse("https://api.whatsapp.com/send?phone=$phoneNumber&text=$encodedMessage")
+//        Log.d("WhatsApp URI", uri.toString())
+//        val intent = Intent(Intent.ACTION_VIEW, uri)
+//        if (intent.resolveActivity(requireContext().packageManager) != null) {
+//            startActivity(intent)
+//        } else {
+//            Toast.makeText(requireContext(), "Aplikasi WhatsApp tidak terinstal.", Toast.LENGTH_SHORT).show()
+//        }
+
+        val intent = Intent(Intent.ACTION_VIEW)
         val phoneNumber = "+6285524620783"
-        val message = "Halo, Selamat Pagi/Siang Bapak/Ibu Mohon maaf apabila mengganggu waktunya Izin Bertanya perihal ...."
-
+        val message = "Halo, Selamat Pagi/Siang Bapak/Ibu, Mohon maaf apabila mengganggu waktunya, Izin Bertanya perihal ...."
         val encodedMessage = URLEncoder.encode(message, "UTF-8")
-
         val uri = Uri.parse("https://api.whatsapp.com/send?phone=$phoneNumber&text=$encodedMessage")
-        Log.d("WhatsApp URI", uri.toString())
-        val intent = Intent(Intent.ACTION_VIEW, uri)
-        if (intent.resolveActivity(requireContext().packageManager) != null) {
+        intent.data = uri
+
+        try {
             startActivity(intent)
-        } else {
+        } catch (e: ActivityNotFoundException) {
             Toast.makeText(requireContext(), "Aplikasi WhatsApp tidak terinstal.", Toast.LENGTH_SHORT).show()
         }
     }
