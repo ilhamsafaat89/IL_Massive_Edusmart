@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/transparent"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginTop="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="606dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/vBio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bab"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/tBio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/r_tugas1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vBio" />
+
+        <ImageView
+            android:id="@+id/vBab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:src="@drawable/bab_isi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vBio" />
+
+        <TextView
+            android:id="@+id/tv_AbsenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/r_tugas2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/vBab"
+            app:layout_constraintEnd_toEndOf="@+id/vBab"
+            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintStart_toStartOf="@+id/vBab"
+            app:layout_constraintTop_toTopOf="@+id/vBab"
+            app:layout_constraintVertical_bias="0.523" />
+
+        <ImageView
+            android:id="@+id/tv_ScoreTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/slide_up"
+            app:layout_constraintBottom_toBottomOf="@+id/vBio"
+            app:layout_constraintEnd_toEndOf="@+id/vBio"
+            app:layout_constraintTop_toTopOf="@+id/vBio"
+            app:layout_constraintVertical_bias="0.547" />
+
+        <ImageView
+            android:id="@+id/vIsibab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:src="@drawable/home_9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vBio" />
+
+        <TextView
+            android:id="@+id/tIsibab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/isi1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginStart="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/vIsibab"
+            app:layout_constraintEnd_toEndOf="@+id/vIsibab"
+            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintStart_toStartOf="@+id/vIsibab"
+            app:layout_constraintTop_toTopOf="@+id/vIsibab"
+            app:layout_constraintVertical_bias="0.523" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tugas"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/vIsibab"
+            app:layout_constraintStart_toStartOf="@+id/vIsibab"
+            app:layout_constraintTop_toTopOf="@+id/vIsibab"/>
+
+        <ImageView
+            android:id="@+id/vIsibab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="184dp"
+            android:contentDescription="@string/desc_7"
+            android:src="@drawable/home_9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vBio" />
+
+        <TextView
+            android:id="@+id/tIsibab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/isi2"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginStart="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/vIsibab2"
+            app:layout_constraintEnd_toEndOf="@+id/vIsibab2"
+            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintStart_toStartOf="@+id/vIsibab2"
+            app:layout_constraintTop_toTopOf="@+id/vIsibab2"
+            app:layout_constraintVertical_bias="0.523" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tugas"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/vIsibab2"
+            app:layout_constraintStart_toStartOf="@+id/vIsibab2"
+            app:layout_constraintTop_toTopOf="@+id/vIsibab2"/>
+
+        <ImageView
+            android:id="@+id/vBab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="244dp"
+            android:src="@drawable/bab_isi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vBio" />
+
+        <TextView
+            android:id="@+id/tv_AbsenTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/r_tugas3"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/vBab2"
+            app:layout_constraintEnd_toEndOf="@+id/vBab2"
+            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintStart_toStartOf="@+id/vBab2"
+            app:layout_constraintTop_toTopOf="@+id/vBab2"
+            app:layout_constraintVertical_bias="0.523" />
+
+        <ImageView
+            android:id="@+id/tv_ScoreTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/slide_up"
+            app:layout_constraintBottom_toBottomOf="@+id/vBab2"
+            app:layout_constraintEnd_toEndOf="@+id/vBab2"
+            app:layout_constraintTop_toTopOf="@+id/vBab2" />
+
+        <ImageView
+            android:id="@+id/vBab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="304dp"
+            android:src="@drawable/bab_isi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vBio" />
+
+        <TextView
+            android:id="@+id/tv_AbsenTitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/r_tugas4"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/vBab3"
+            app:layout_constraintEnd_toEndOf="@+id/vBab3"
+            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintStart_toStartOf="@+id/vBab3"
+            app:layout_constraintTop_toTopOf="@+id/vBab3"
+            app:layout_constraintVertical_bias="0.523" />
+
+        <ImageView
+            android:id="@+id/tv_ScoreTitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/slide_up"
+            app:layout_constraintBottom_toBottomOf="@+id/vBab3"
+            app:layout_constraintEnd_toEndOf="@+id/vBab3"
+            app:layout_constraintTop_toTopOf="@+id/vBab3" />
+
+        <ImageView
+            android:id="@+id/vBab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="364dp"
+            android:src="@drawable/bab_isi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/vBio" />
+
+        <TextView
+            android:id="@+id/tv_AbsenTitle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/r_tugas5"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/vBab4"
+            app:layout_constraintEnd_toEndOf="@+id/vBab4"
+            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintStart_toStartOf="@+id/vBab4"
+            app:layout_constraintTop_toTopOf="@+id/vBab4"
+            app:layout_constraintVertical_bias="0.523" />
+
+        <ImageView
+            android:id="@+id/tv_ScoreTitle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/slide_up"
+            app:layout_constraintBottom_toBottomOf="@+id/vBab4"
+            app:layout_constraintEnd_toEndOf="@+id/vBab4"
+            app:layout_constraintTop_toTopOf="@+id/vBab4" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
