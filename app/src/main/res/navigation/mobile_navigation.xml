@@ -39,5 +39,5 @@
         android:id="@+id/fragment_ujian2"
         android:name="com.dasadarsa.edusmart.ujian.Fragment_ujian2"
         android:label="fragment_ujian2"
-        tools:layout="@layout/fragment_ujian2" />
+        tools:layout="@layout/fragment_ujian_scroll" />
 </navigation>

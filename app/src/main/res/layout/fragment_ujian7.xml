@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="80dp"
+    android:paddingBottom="80dp"
+    tools:context=".home.fragment.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tv_timer"
+            style="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="26:30"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_text_welcome"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="\tPerhatian !!"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_timer"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_text_name"
+            android:layout_width="251dp"
+            android:layout_height="21dp"
+
+            android:layout_marginStart="16dp"
+            android:text="- Bacalah soal dengan seksama"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_timer"
+            app:layout_constraintTop_toBottomOf="@+id/tv_text_welcome" />
+
+        <TextView
+            android:id="@+id/tv_text_nim"
+            android:layout_width="249dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:text="- Kerjakan secara teliti"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_timer"
+            app:layout_constraintTop_toBottomOf="@+id/tv_text_name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/sv_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_banner"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:contentPadding="20dp"
+            app:layout_constraintTop_toBottomOf="@id/btn_ujian"
+            tools:ignore="DuplicateIds">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_banner2"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="@color/blue_rebranding"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:contentPadding="20dp"
+                app:layout_constraintTop_toBottomOf="@id/btn_ujian">
+
+                <TextView
+                    android:id="@+id/tv_nilai"
+                    style="@style/TextAppearance.Material3.TitleLarge"
+                    android:layout_width="235dp"
+                    android:layout_height="89dp"
+                    android:layout_gravity="center_vertical"
+                    android:paddingTop="20dp"
+                    android:text="Apakah anda yakin ingin \nmenyelesaikan ujian ?"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintottom_toBottomOf="parent"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btn_result"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="200dp"
+                android:background="@drawable/button_7"
+                android:text="kembali "
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/line_cv_banner2"
+                tools:layout_editor_absoluteX="50dp" />
+
+            <Button
+                android:id="@+id/btn_result"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="180dp"
+                android:layout_marginTop="200dp"
+                android:background="@drawable/button_3"
+                android:text="kirim "
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/line_cv_banner2"
+                tools:layout_editor_absoluteX="50dp" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

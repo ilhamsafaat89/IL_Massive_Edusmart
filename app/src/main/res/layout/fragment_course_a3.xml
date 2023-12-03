@@ -39,8 +39,9 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="164dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="1dp"
         android:fontFamily="@font/opensans"
         android:text="Bab I"
         android:textColor="@color/orange_subjudul_edusmart"
