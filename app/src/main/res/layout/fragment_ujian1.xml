@@ -76,7 +76,7 @@
         android:layout_margin="20dp"
         android:padding="8dp"
         android:paddingStart="20dp"
-        android:text="Silahkan masukan kode ujian yang didapat dari guru bersangkutan"
+        android:text="Silahkan masukan kode ujian \n yang didapat dari guru bersangkutan"
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="18sp"

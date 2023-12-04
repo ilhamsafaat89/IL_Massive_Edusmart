@@ -37,7 +37,7 @@ class Fragment_ujian2 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val v = inflater.inflate(R.layout.fragment_ujian2, container, false)
+        val v = inflater.inflate(R.layout.fragment_ujian_scroll, container, false)
 
         val bt = v.findViewById<Button>(R.id.btn_ujian)
         bt.setOnClickListener{
