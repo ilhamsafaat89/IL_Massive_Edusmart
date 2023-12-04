@@ -1,17 +1,17 @@
 package com.dasadarsa.edusmart.ortu
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import androidx.fragment.app.Fragment
 import com.dasadarsa.edusmart.R
 import com.dasadarsa.edusmart.chat.fragment.ChatFragment
-import com.dasadarsa.edusmart.course.CourseFragment
 import com.dasadarsa.edusmart.ortu.home.HomeWaliFragment
 import com.dasadarsa.edusmart.databinding.ActivityWaliMainBinding
-import com.dasadarsa.edusmart.home.fragment.HomeFragment
 import com.dasadarsa.edusmart.ortu.absensi.AbsensiWaliFragment
-import com.dasadarsa.edusmart.scan.ScanFragment
+import com.dasadarsa.edusmart.ortu.nilai.NilaiWaliFragment
+
 
 class MainWaliActivity : AppCompatActivity() {
 
@@ -35,7 +35,7 @@ class MainWaliActivity : AppCompatActivity() {
 
                 R.id.menu_1 -> replaceFragment(HomeWaliFragment())
                 R.id.menu_2 -> replaceFragment(AbsensiWaliFragment())
-                R.id.menu_3 -> replaceFragment(ScanFragment())
+                R.id.menu_3 -> replaceFragment(NilaiWaliFragment())
                 R.id.menu_4 -> replaceFragment(ChatFragment())
 
                 else ->{
@@ -48,7 +48,7 @@ class MainWaliActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.actionbar_menu, menu)
+        menuInflater.inflate(R.menu.actionbar_menu_wali, menu)
         return true
     }
 
@@ -57,6 +57,7 @@ class MainWaliActivity : AppCompatActivity() {
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.fragment_container,fragment)
+        fragmentTransaction.addToBackStack(null)
         fragmentTransaction.commit()
     }
 }

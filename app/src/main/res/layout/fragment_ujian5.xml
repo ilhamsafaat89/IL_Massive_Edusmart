@@ -98,7 +98,7 @@
                 android:layout_width="322dp"
                 android:layout_height="90dp"
                 android:layout_marginRight="10dp"
-                android:layout_marginleft="10dp"
+                android:layout_marginLeft="10dp"
                 app:cardBackgroundColor="@color/blue_rebranding"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="6dp"
@@ -118,7 +118,7 @@
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintottom_toBottomOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     tools:ignore="RtlCompat" />
 
             </androidx.cardview.widget.CardView>
