@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.actionBarHomeSiswa)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
-        supportActionBar?.setHomeAsUpIndicator(R.drawable.logo_actionbar)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.edusmart_logo_1)
 
 
         binding.bottomNav.setOnItemSelectedListener {
