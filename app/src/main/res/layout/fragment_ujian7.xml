@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:paddingTop="80dp"
     android:paddingBottom="80dp"
-    tools:context=".home.fragment.HomeFragment">
+    tools:context="ujian.Fragment_ujian7">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -121,7 +121,7 @@
             </androidx.cardview.widget.CardView>
 
             <Button
-                android:id="@+id/btn_result1"
+                android:id="@+id/btn_result"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
                 android:layout_marginHorizontal="50dp"
@@ -135,7 +135,7 @@
                 tools:layout_editor_absoluteX="50dp" />
 
             <Button
-                android:id="@+id/btn_result"
+                android:id="@+id/btn_upload"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
                 android:layout_marginHorizontal="180dp"

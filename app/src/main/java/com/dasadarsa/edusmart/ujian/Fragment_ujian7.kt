@@ -1,11 +1,11 @@
 package com.dasadarsa.edusmart.ujian
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
 import com.dasadarsa.edusmart.R
 
@@ -13,13 +13,12 @@ import com.dasadarsa.edusmart.R
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
-
 /**
  * A simple [Fragment] subclass.
- * Use the [Fragment_ujian2.newInstance] factory method to
+ * Use the [Fragment_ujian7.newInstance] factory method to
  * create an instance of this fragment.
  */
-class Fragment_ujian2 : Fragment() {
+class Fragment_ujian7 : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -37,13 +36,13 @@ class Fragment_ujian2 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val v = inflater.inflate(R.layout.fragment_ujian2, container, false)
+        val v = inflater.inflate(R.layout.fragment_ujian7, container, false)
 
-        val bt = v.findViewById<Button>(R.id.slide_right)
+        val bt = v.findViewById<Button>(R.id.btn_upload)
         bt.setOnClickListener{
-            val Fragment_ujian3 = Fragment_ujian3()
+            val Fragment_selesai = Fragment_selesai()
             val transaction : FragmentTransaction = requireFragmentManager().beginTransaction()
-            transaction.replace(R.id.fragment_container,Fragment_ujian3)
+            transaction.replace(R.id.fragment_container,Fragment_selesai)
             transaction.addToBackStack(null)
             transaction.commit()
 
@@ -63,7 +62,7 @@ class Fragment_ujian2 : Fragment() {
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            Fragment_ujian2().apply {
+            Fragment_ujian7().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

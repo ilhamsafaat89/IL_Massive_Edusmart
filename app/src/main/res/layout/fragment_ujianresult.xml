@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:paddingTop="80dp"
     android:paddingBottom="80dp"
-    tools:context=".home.fragment.HomeFragment">
+    tools:context="ujian.Fragment_ujian9">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"

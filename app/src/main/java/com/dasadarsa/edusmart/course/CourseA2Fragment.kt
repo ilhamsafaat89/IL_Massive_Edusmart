@@ -49,9 +49,9 @@ class CourseA2Fragment : Fragment() {
             transaction.commit()
         }
         bt1.setOnClickListener {
-            val CourseA3Fragment = CourseA3Fragment()
+            val CourseA4Fragment = CourseA4Fragment()
             val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
-            transaction.replace(R.id.fragment_container, CourseA3Fragment)
+            transaction.replace(R.id.fragment_container, CourseA4Fragment)
             transaction.addToBackStack(null)
             transaction.commit()
         }

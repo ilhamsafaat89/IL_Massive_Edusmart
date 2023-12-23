@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:paddingTop="80dp"
     android:paddingBottom="80dp"
-    tools:context=".home.fragment.HomeFragment">
+    tools:context="ujian.Fragment_ujian4">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -111,7 +111,7 @@
                     android:layout_height="89dp"
                     android:layout_gravity="center_vertical"
                     android:paddingTop="15dp"
-                    android:text="Apakah anda yakin ingin \nmenyelesaikan ujian ?"
+                    android:text="Gaya yang bekerja pada suatu benda dapat menyebabkan benda .."
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="15sp"
@@ -131,7 +131,7 @@
                 android:layout_marginTop="110dp"
                 android:background="@drawable/opsi_a"
                 android:fontFamily="@font/inter"
-                android:text="Bergerak ke depan"
+                android:text="Bergerak"
                 android:textAllCaps="false"
                 android:textColor="@color/white" />
 
@@ -143,7 +143,7 @@
                 android:layout_marginTop="145dp"
                 android:background="@drawable/opsi_b"
                 android:fontFamily="@font/inter"
-                android:text="Bergerak ke depan"
+                android:text="Diam"
                 android:textAllCaps="false"
                 android:textColor="@color/white" />
 
@@ -155,7 +155,7 @@
                 android:layout_marginTop="180dp"
                 android:background="@drawable/opsi_c"
                 android:fontFamily="@font/inter"
-                android:text="Bergerak ke depan"
+                android:text="Berubah bentuk"
                 android:textAllCaps="false"
                 android:textColor="@color/white" />
 
@@ -167,7 +167,7 @@
                 android:layout_marginTop="215dp"
                 android:background="@drawable/opsi_d"
                 android:fontFamily="@font/inter"
-                android:text="Bergerak ke depan"
+                android:text="Semua benar"
                 android:textAllCaps="false"
                 android:textColor="@color/white" />
 

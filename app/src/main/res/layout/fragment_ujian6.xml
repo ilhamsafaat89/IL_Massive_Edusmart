@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:paddingTop="80dp"
     android:paddingBottom="80dp"
-    tools:context=".home.fragment.HomeFragment">
+    tools:context="ujian.Fragment_ujian6">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -110,8 +110,8 @@
                     android:layout_width="282dp"
                     android:layout_height="89dp"
                     android:layout_gravity="center_vertical"
-                    android:paddingTop="15dp"
-                    android:text="Apakah anda yakin ingin \nmenyelesaikan ujian ?"
+                    android:paddingTop="35dp"
+                    android:text="Gaya gravitasi adalah gaya yang ..."
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="15sp"
@@ -131,7 +131,7 @@
                 android:layout_marginTop="110dp"
                 android:background="@drawable/opsi_a"
                 android:fontFamily="@font/inter"
-                android:text="Bergerak ke depan"
+                android:text="Timbul akibat 2 permukaan"
                 android:textAllCaps="false"
                 android:textColor="@color/white" />
 
@@ -143,7 +143,7 @@
                 android:layout_marginTop="145dp"
                 android:background="@drawable/opsi_b"
                 android:fontFamily="@font/inter"
-                android:text="Bergerak ke depan"
+                android:text="Selalu berlawanan arah"
                 android:textAllCaps="false"
                 android:textColor="@color/white" />
 
@@ -155,7 +155,7 @@
                 android:layout_marginTop="180dp"
                 android:background="@drawable/opsi_c"
                 android:fontFamily="@font/inter"
-                android:text="Bergerak ke depan"
+                android:text="Besarnya tergantung"
                 android:textAllCaps="false"
                 android:textColor="@color/white" />
 
@@ -167,7 +167,7 @@
                 android:layout_marginTop="215dp"
                 android:background="@drawable/opsi_d"
                 android:fontFamily="@font/inter"
-                android:text="Bergerak ke depan"
+                android:text="Semua benar"
                 android:textAllCaps="false"
                 android:textColor="@color/white" />
 
@@ -175,10 +175,16 @@
                 android:id="@+id/slide_left"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="310dp"
+                android:layout_marginLeft="270dp"
                 android:layout_marginTop="255dp"
                 android:background="@drawable/slide_left" />
-
+            <Button
+                android:id="@+id/slide_right"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="255dp"
+                android:background="@drawable/slide_right" />
 
         </androidx.cardview.widget.CardView>
 

@@ -20,6 +20,9 @@
         android:theme="@style/Theme.EduSmart"
         tools:targetApi="31">
         <activity
+            android:name=".ujian.Fragment_ujianpro2"
+            android:exported="false" />
+        <activity
             android:name=".ortu.LoginWaliActivity"
             android:exported="false">
             <meta-data

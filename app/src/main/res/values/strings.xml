@@ -24,6 +24,8 @@
     <string name="home_5">Sakit</string>
     <string name="home_6">Alfa</string>
     <string name="home_7">V</string>
+    <string name="ebook_description">Deskripsi gambar eBook.</string>
+
 
 
     <string name="nilai_1">B. Indonesia</string>
@@ -78,6 +80,25 @@
     <string name="isi1">Tugas 1</string>
     <string name="isi2">Tugas 2</string>
     <string name="isi3">Tugas 3</string>
+    <string name="item_label">Items</string>
+    <string name="label">Items</string>
+    <!--    <string-array name="feelings">-->
+    <!--        <item>Sad</item>-->
+    <!--        <item>Dissatisfied</item>-->
+    <!--        <item>Satisfied</item>-->
+    <!--        <item>Happy</item>-->
+    <!--        <item>Excited</item>-->
+    <!--    </string-array>-->
+    <string-array name="programming_languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>CPP</item>
+    </string-array>
+
+    <!--    <string name="select_bab">Pilih Bab</string>-->
+    <!--    <string name="select_tugas">Pilih Tugas</string>-->
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment1">Hello blank fragment1</string>

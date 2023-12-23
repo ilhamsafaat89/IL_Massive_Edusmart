@@ -41,9 +41,9 @@ class Fragment_selesai : Fragment() {
         val v =  inflater.inflate(R.layout.fragment_selesai, container, false)
         val bt = v.findViewById<Button>(R.id.btn_ujian)
         bt.setOnClickListener{
-            val HomeC1Fragment = HomeC1Fragment()
+            val Fragment_ujian9 = Fragment_ujian9()
             val transaction : FragmentTransaction = requireFragmentManager().beginTransaction()
-            transaction.replace(R.id.fragment_container,HomeC1Fragment)
+            transaction.replace(R.id.fragment_container,Fragment_ujian9)
             transaction.addToBackStack(null)
             transaction.commit()
 
