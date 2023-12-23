@@ -1,10 +1,19 @@
 package com.dasadarsa.edusmart.ortu.absensi
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Adapter
+import android.widget.AdapterView
+import android.widget.AdapterView.OnItemSelectedListener
+import android.widget.ArrayAdapter
+import android.widget.Spinner
+import androidx.cardview.widget.CardView
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.dasadarsa.edusmart.R
@@ -30,14 +39,26 @@ class AbsensiWaliFragment : Fragment() {
     private var recycleViewHomeWaliAbsensiAdapter : RecycleViewHomeWaliAbsensiAdapter? = null
     private var absensiWaliList = mutableListOf<AbsensiWaliData>()
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
+
         }
+
+
+
+//        val arrayAdapter: ArrayAdapter<CharSequence> = ArrayAdapter.createFromResource(requireContext()
+//            ,R.array.items,android.R.layout.simple_spinner_dropdown_item)
+
+
+
+
     }
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -45,50 +66,23 @@ class AbsensiWaliFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_absensi_wali, container, false)
 
-        absensiWaliList = ArrayList()
+        val btnJanuari: CardView = view.findViewById(R.id.absenWaliJanuari)
 
-        recyclerView = view.findViewById(R.id.rvAbsenList) as RecyclerView
-        recycleViewHomeWaliAbsensiAdapter = RecycleViewHomeWaliAbsensiAdapter(this, absensiWaliList)
-        val  layoutManager : RecyclerView.LayoutManager = LinearLayoutManager(context)
-        recyclerView!!.layoutManager = layoutManager
-        recyclerView!!.adapter = recycleViewHomeWaliAbsensiAdapter
+        btnJanuari.setOnClickListener(View.OnClickListener {
+            val fl: ConstraintLayout = view.findViewById(R.id.AbsensiWaliFragment)
+            fl.removeAllViews()
 
-        prepareScoreListData()
+            val toAbsensiWaliFragment2: Fragment= AbsensiWaliFragment2()
+            val fragmentChange: FragmentTransaction? = getActivity()?.getSupportFragmentManager()?.beginTransaction()
+            fragmentChange?.replace(R.id.AbsensiWaliFragment, toAbsensiWaliFragment2)?.commit()
+        })
 
         return view
     }
 
-    private fun prepareScoreListData(){
-        var absensiWaliData = AbsensiWaliData("Januari", R.drawable.home_9)
-        absensiWaliList.add(absensiWaliData)
-        absensiWaliData = AbsensiWaliData("Februari", R.drawable.home_9)
-        absensiWaliList.add(absensiWaliData)
-        absensiWaliData = AbsensiWaliData("Maret", R.drawable.home_9)
-        absensiWaliList.add(absensiWaliData)
-        absensiWaliData = AbsensiWaliData("April", R.drawable.home_9)
-        absensiWaliList.add(absensiWaliData)
-        absensiWaliData = AbsensiWaliData("Mei", R.drawable.home_9)
-        absensiWaliList.add(absensiWaliData)
-        absensiWaliData = AbsensiWaliData("Juni", R.drawable.home_9)
-        absensiWaliList.add(absensiWaliData)
-        absensiWaliData = AbsensiWaliData("Juli", R.drawable.home_9)
-        absensiWaliList.add(absensiWaliData)
-        absensiWaliData = AbsensiWaliData("Agustus", R.drawable.home_9)
-        absensiWaliList.add(absensiWaliData)
-        absensiWaliData = AbsensiWaliData("September", R.drawable.home_9)
-        absensiWaliList.add(absensiWaliData)
-        absensiWaliData = AbsensiWaliData("Oktober", R.drawable.home_9)
-        absensiWaliList.add(absensiWaliData)
-        absensiWaliData = AbsensiWaliData("November", R.drawable.home_9)
-        absensiWaliList.add(absensiWaliData)
-        absensiWaliData = AbsensiWaliData("Desember", R.drawable.home_9)
-        absensiWaliList.add(absensiWaliData)
 
 
 
-        recycleViewHomeWaliAbsensiAdapter!!.notifyDataSetChanged()
-
-    }
 
 
     companion object {

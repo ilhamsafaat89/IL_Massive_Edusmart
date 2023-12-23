@@ -15,6 +15,11 @@
     <color name="orange_subjudul_edusmart">#F8BD4C</color>
     <color name="blue_laut_edusmart">#0F3392</color>
     <color name="red">#D70000</color>
+<<<<<<< HEAD
     <color name= "bluedark">#0B2640</color>
     <color name= "whitepro">#EFEFEF</color>
+=======
+    <color name="green">#16D700</color>
+    <color name="yellow">#FFE600</color>
+>>>>>>> dd08022f34f8b25a4b8491d54599b91a3b15dfc2
 </resources>
